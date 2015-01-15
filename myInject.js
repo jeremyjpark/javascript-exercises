@@ -13,5 +13,5 @@ var myInject = function(array, callback) {
 }
 
 console.log(myInject([1, 2, 3, 4, 5], function(start, el) {
-    return start * el
+    return start + el
 }))
